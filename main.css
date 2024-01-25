@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Caveat', cursive;
+    font-weight: normal;
+    font-size:x-large
+}
+
+body, input, textarea {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+header { /* COR DO CABEÇALHO*/
+    padding: 16px 0;
+    background-color: rgb(82, 0, 107);
+    color: rgb(223, 219, 2);
+    font-size: 28px;
+}
+
+header nav li { /* POSIÇÃO DOS LINKS SOBRE LOJA E CONTATO*/
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a { /* CORES DOS LINKS SOBRE LOJA E CONTATO*/
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brands-list img {
+    height: 56px;
+}
+
+.brands-list li { /* deixar as logos uma do lado da outra*/
+    display: inline;
+    margin: 24px;
+}
+
+section .container {
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    color: rgb(0, 0, 0);
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.store-front {
+    margin-right: 32px ;
+}
+
+.social-links img {
+    height: 36px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 24px;
+}
+
+form button {
+    background-color: rgb(82, 0, 107);
+    color: rgb(223, 219, 2);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(113, 4, 236);
+}
+
+input:focus, textarea:focus {
+    outline-color: black;
+}
+
+footer {
+    background-color: rgb(82, 0, 107);
+    color: rgb(223, 219, 2);
+    padding: 16px 0;
+}
+
+section a {
+    font-size: 24px;
+}
